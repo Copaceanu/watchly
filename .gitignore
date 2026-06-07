@@ -1,0 +1,14 @@
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+secrets.*
+*secret*
+*.key
+
+# OS / editor
+.DS_Store
+*.log
+node_modules/
+.idea/
+.vscode/
